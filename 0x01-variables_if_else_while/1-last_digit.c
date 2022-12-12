@@ -24,13 +24,17 @@ int main(void)
 	{
 		printf("and is greater than 5");
 
-	} else if (y == 0)
+	}
+
+	if (y == 0)
 	{
 		printf("and is 0\n");
-	} else
+	} 
+	if ( y < 6 && x !=0)
 	{
 		printf("and is less than 6 and not 0\n");
 	}
+
 	printf("\n");
 	return (0);
 }
