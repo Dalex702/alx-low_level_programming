@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - A random number is assigned to the variable j each time
- * it is executed and the last digit of the number stored in the variable j is printed 
+ * it is executed and the last digit of the number stored in the
+ * variable j is printed 
  * Return: alway returns 0
  */
 
