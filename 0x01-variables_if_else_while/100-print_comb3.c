@@ -2,7 +2,7 @@
 /**
  * main - A random number is assigned to the variable j each time
  * it is executed and the last digit of the number stored in the
- * variable j  is printed 
+ * variable j is printed 
  * Return: alway returns 0
  */
 
@@ -20,11 +20,11 @@ int main(void)
 				putchar(i);
 				putchar(j);
 
-				if (i != 56 || j != 57)
-				{				
-					putchar(44);
-					putchar(32);
-				}
+			if (i != 56 || j != 57)
+			{
+				putchar(44);
+				putchar(32);
+			}
 			}
 		}
 	}
