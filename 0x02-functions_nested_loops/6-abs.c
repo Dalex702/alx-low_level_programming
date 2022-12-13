@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.ih"
 /**
  * _abs - main function
  *
@@ -14,4 +14,3 @@ int _abs(int n)
 	else
 		return (n * -1);
 }
-	
