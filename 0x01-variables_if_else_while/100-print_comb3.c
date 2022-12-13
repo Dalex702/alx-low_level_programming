@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main - A random number is assigned to the variable j each time it is executed and the last digit of the number stored in the variable j is printed
+ * main - A random number is assigned to the variable j each time
+ * it is executed and the last digit of the number stored in the
+ * variable j  is printed 
  * Return: alway returns 0
  */
 
@@ -19,8 +21,8 @@ int main(void)
 				putchar(j);
 
 				if (i != 56 || j != 57)
-				{
-					putchar(44);				
+				{				
+					putchar(44);
 					putchar(32);
 				}
 			}
@@ -29,7 +31,3 @@ int main(void)
 	putchar(10);
 	return (0);
 }
-				
-
-
-
