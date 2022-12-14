@@ -23,7 +23,7 @@ int main(void)
 			printf("%lu\n", c);
 		}
 		a = b;
-		b = c'
+		b = c;
 	}
 	return (0);
 }
