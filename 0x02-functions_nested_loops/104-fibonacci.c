@@ -10,17 +10,17 @@ int main(void)
 
 	int i;
 
-	for (i == 1; i <= 98; i++)
+	for (i = 1; i <= 98; i++)
 	{
 		c = a + b;
 
 		if (i != 98)
 		{
-			printf("%lu, ", c);
+			printf("%d, ", c);
 		}
 		else
 		{
-			printf("%lu\n", c);
+			printf("%d\n", c);
 		}
 		a = b;
 		b = c;
