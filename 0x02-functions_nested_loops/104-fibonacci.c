@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long long a = 0, b = 1, c;
+	unsigned long int a = 0, b = 1, c;
 
 	int i;
 
@@ -16,11 +16,11 @@ int main(void)
 
 		if (i != 98)
 		{
-			printf("%d, ", c);
+			printf("%ld, ", c);
 		}
 		else
 		{
-			printf("%d\n", c);
+			printf("%ld\n", c);
 		}
 		a = b;
 		b = c;
