@@ -29,7 +29,7 @@ int main(void)
 	aft1 = (aft / l);
 	aft2 = (aft % l);
 
-	for (i = 92; i < 99; ++i)
+	for (i = 92; i <= 98; ++i)
 	{
 		printf(", %ld", aft1 + (aft2 / 1));
 		printf("%ld", aft2 % l);
